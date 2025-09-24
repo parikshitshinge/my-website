@@ -67,7 +67,7 @@
                                 <div class="text-muted fst-italic mb-2">A decade of experience playing with data!</div>
                                 <!-- Post categories-->
                                 <a class="badge bg-secondary text-decoration-none link-light" href="#!">Data Engineering</a>
-                                <a class="badge bg-secondary text-decoration-none link-light" href="#!">Analytics</a>
+                                <a class="badge bg-secondary text-decoration-none link-light" href="#!">Data Analytics</a>
                                 <a class="badge bg-secondary text-decoration-none link-light" href="#!">Machine Learning & Gen AI</a>
                             </div>
 
@@ -87,121 +87,31 @@
                                     <li>Meditation practitioner</li>
                                 </ul>
                             </p>
-                            <h2 class="fw-bolder mb-4 mt-5">Some of my data work</h2>
+                            <h2 class="fw-bolder mb-4 mt-5">Some of my work</h2>
 
                             <!-- Data projects -->
+                            <!-- Pills -->
                             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">All</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="pills-de-tab" data-bs-toggle="pill" data-bs-target="#pills-de" type="button" role="tab" aria-controls="pills-de" aria-selected="true">Data Engineering</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="pills-da-tab" data-bs-toggle="pill" data-bs-target="#pills-da" type="button" role="tab" aria-controls="pills-da" aria-selected="false">Data Analytics</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="pills-ml-tab" data-bs-toggle="pill" data-bs-target="#pills-ml" type="button" role="tab" aria-controls="pills-ml" aria-selected="false">Machine Learning & Gen AI</button>
-                                </li>                  
+                            <li class="nav-item" role="presentation">
+                                <button class="filter-btn nav-link active" data-filter="all">All</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="filter-btn nav-link" data-filter="de">Data Engineering</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="filter-btn nav-link" data-filter="da">Data Analytics</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="filter-btn nav-link" data-filter="ml">Machine Learning & Gen AI</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="filter-btn nav-link" data-filter="other">Other</button>
+                            </li>                            
                             </ul>
 
-                            <div class="tab-content" id="pills-tabContent">
-                                <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"></div>
-                                <div class="tab-pane fade" id="pills-de" role="tabpanel" aria-labelledby="pills-de-tab"></div>
-                                <div class="tab-pane fade" id="pills-da" role="tabpanel" aria-labelledby="pills-da-tab"></div>
-                                <div class="tab-pane fade" id="pills-ml" role="tabpanel" aria-labelledby="pills-ml-tab"></div>
-                                <div class="tab-pane fade" id="pills-genai" role="tabpanel" aria-labelledby="pills-genai-tab"></div>
-                            </div>
 
-                            <!-- Projects -->
-                            <div class="container-fluid px-0 my-2">
-                            <ul class="list-unstyled mb-0">
-
-                                <!-- Project 0 -->
-                                <li>
-                                <div class="card shadow-sm mb-3">
-                                    <div class="card-body p-3">
-                                    <h4 class="fw-bold mb-2">My Personal Website</h4>
-                                    <p class="mb-2">
-                                        <span class="fw-semibold text-muted">Technologies:</span>
-                                        <span class="badge bg-warning text-dark me-1">HTML</span>
-                                        <span class="badge bg-warning text-dark me-1">CSS (Bootstrap)</span>
-                                        <span class="badge bg-warning text-dark ">Vercel</span>
-                                        <span class="badge bg-warning text-dark ">GitHub</span>
-                                    </p>
-                                    <p class="text-dark mb-0">
-                                        <span class="fw-semibold text-muted">Project Description:</span><br>
-                                        Built a portfolio website to showcase my work and build my online presence. I built this from scratch, using my favourite Bootstrap framework. Purchased a domain and then hosted it on Vercel.
-                                    </p>
-                                    </div>
-                                </div>
-                                </li>
-
-                                <!-- Project 1 -->
-                                <li>
-                                <div class="card shadow-sm mb-3">
-                                    <div class="card-body p-3">
-                                    <h4 class="fw-bold mb-2">Strategic KPI Dashboard & Data Pipelines</h4>
-                                    <p class="mb-1"><span class="fw-semibold text-muted">Client:</span> Government Institution</p>
-                                    <p class="mb-2">
-                                        <span class="fw-semibold text-muted">Technologies:</span>
-                                        <span class="badge bg-primary me-1">Python</span>
-                                        <span class="badge bg-primary me-1">SQL</span>
-                                        <span class="badge bg-success ">Tableau</span>
-                                    </p>
-                                    <p class="text-dark mb-0">
-                                        <span class="fw-semibold text-muted">Project Description:</span><br>
-                                        Partnered with senior leadership stakeholders through data discovery workshops to capture business requirements and define key metrics for strategic priorities. Collaborated with strategy teams to design and develop Tableau dashboards for monitoring KPIs critical to planning and performance tracking. Developed and deployed automated data pipelines (Python, GCC platforms) to streamline ingestion and transformation processes, ensuring accuracy, consistency, and reliability of data for high-level decision-making. Led a team of a data engineer and analyst, providing guidance and oversight to ensure high-quality, on-time delivery of dashboards and data solutions.
-                                    </p>
-                                    </div>
-                                </div>
-                                </li>
-
-                                <!-- Project 2 -->
-                                <li>
-                                <div class="card shadow-sm mb-3">
-                                    <div class="card-body p-3">
-                                    <h4 class="fw-bold mb-2">Customer Experience Analytics</h4>
-                                    <p class="mb-1"><span class="fw-semibold text-muted">Client:</span> Financial Institution</p>
-                                    <p class="mb-2">
-                                        <span class="fw-semibold text-muted">Technologies:</span>
-                                        <span class="badge bg-success me-1">Adobe Analytics</span>
-                                        <span class="badge bg-success me-1">Adobe Target</span>
-                                        <span class="badge bg-success">Google Analytics</span>
-                                    </p>
-                                    <p class="text-dark mb-0">
-                                        <span class="fw-semibold text-muted">Project Description:</span><br>
-                                        Implemented end-to-end analytics tracking across the bank’s digital touchpoints (web & app) to optimize customer experiences, especially during onboarding journeys to improve conversions. Reduced churn during onboarding by over 50% and enabled effective retargeting through granular data capture. Designed and executed A/B tests using Adobe Target to validate user journeys and enhance digital customer experience. Collaborated with marketing and product teams to build dashboards and reports to track campaign performance and conversion funnels using Adobe Analytics and Google Analytics.
-                                    </p>
-                                    </div>
-                                </div>
-                                </li>
-
-                                <!-- Project 3 -->
-                                <li>
-                                <div class="card shadow-sm mb-3">
-                                    <div class="card-body p-3">
-                                    <h4 class="fw-bold mb-2">CRM Analytics & BI Platform Enablement</h4>
-                                    <p class="mb-1"><span class="fw-semibold text-muted">Client:</span> Telecommunication</p>
-                                    <p class="mb-2">
-                                        <span class="fw-semibold text-muted">Technologies:</span>
-                                        <span class="badge bg-success me-1">Tableau</span>
-                                        <span class="badge bg-primary me-1">SQL</span>
-                                        <span class="badge bg-primary me-1">Python</span>
-                                        <span class="badge bg-primary">Microsoft SSIS</span>
-                                    </p>
-                                    <p class="text-dark mb-0">
-                                        <span class="fw-semibold text-muted">Project Description:</span><br>
-                                        Served as a key contributor in building and scaling the organization-wide BI platform (Tableau), enabling data-driven decision-making across customer engagement and marketing functions. Designed and delivered dashboards on top of CRM datasets to provide actionable insights and improve campaign effectiveness. Partnered with senior leadership (Managing Director, Director of Strategy, etc.) to solve business challenges and enhance sales and marketing efficiency. Managed BI governance, including user access and controls, while overseeing a team of offshore developers and collaborating with cross-functional stakeholders to drive adoption and streamline reporting processes.
-                                    </p>
-                                    </div>
-                                </div>
-                                </li>
-
-                            </ul>
-                            </div>
-
-
+                            <div id="projects-list"></div>
+                        
 
 
                         </section>
@@ -282,11 +192,21 @@
 
                         <!-- Other -->
                         <div class="col-sm-6 mb-3">
+                            <b class="d-block mb-2">ML & Gen AI</b>
+                            <div>
+                                <span class="badge bg-danger me-1 mb-1">Recommendation Models</span>
+                                <span class="badge bg-danger me-1 mb-1">Chatbot Integration</span>
+                            </div>
+                        </div>
+
+                        <!-- Other -->
+                        <div class="col-sm-6 mb-3">
                             <b class="d-block mb-2">Other</b>
                             <div>
-                                <span class="badge bg-warning text-dark me-1 mb-1">Web Development (HTML JavaScript CSS)</span>
-                                <span class="badge bg-warning text-dark me-1 mb-1">GitHub (Collaboration & CI/CD)</span>
-                                <span class="badge bg-warning text-dark me-1 mb-1">App hosting (Vercel)</span>
+                                <span class="badge bg-warning text-dark me-1 mb-1">HTML, JavaScript, CSS</span>
+                                <span class="badge bg-warning text-dark me-1 mb-1">Ci/CD</span>
+                                <span class="badge bg-warning text-dark me-1 mb-1">GitHub</span>
+                                <span class="badge bg-warning text-dark me-1 mb-1">Web Hosting (Vercel)</span>
                             </div>
                         </div>
 
