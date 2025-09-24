@@ -1,30 +1,39 @@
 [
   {
-    "title": "My Personal Website",
-    "client": "NA",
-    "technologies": ["HTML", "JavaScript", "CSS (Bootstrap)", "Vercel", "GitHub"],
-    "description": "Built a portfolio website to showcase my work and build my online presence. I built this from scratch, using my favourite Bootstrap framework. Purchased a domain and then hosted it on Vercel.",
-    "categories": ["all", "other"]
+    "title": "Customer Churn Prediction",
+    "client": "Telecommunication",
+    "technologies": ["Python", "Scikit-learn"],
+    "description": "Predicted whether a customer will their telco provider based on 19 features. Trained various models (LogisticRegression, SVC, various Decision Trees) on 4250 customers. Deployed with GradientBoosting model (95.86% accuracy) after hyperparameter tuning.",
+    "categories": ["all", "ml"],
+    "github": "https://github.com/parikshitshinge/telco-customer-churn-prediction"
   },
   {
     "title": "Strategic KPI Dashboard & Data Pipelines",
     "client": "Government Institution",
     "technologies": ["Python", "SQL", "Tableau"],
-    "description": "Partnered with senior leadership stakeholders through data discovery workshops to capture business requirements and define key metrics for strategic priorities. Collaborated with strategy teams to design and develop Tableau dashboards for monitoring KPIs critical to planning and performance tracking. Developed and deployed automated data pipelines (Python, GCC platforms) to streamline ingestion and transformation processes, ensuring accuracy, consistency, and reliability of data for high-level decision-making. Led a team of a data engineer and analyst, providing guidance and oversight to ensure high-quality, on-time delivery of dashboards and data solutions.",
+    "description": "Worked with senior leadership to define key metrics and design Tableau dashboards for strategic KPI tracking. Built automated data pipelines (Python, GCC) to ensure reliable data flow, and led a small team to deliver accurate, high-quality analytics solutions on time.",
     "categories": ["all", "de"]
   },
   {
     "title": "Customer Experience Analytics",
     "client": "Financial Institution",
     "technologies": ["Adobe Analytics", "Adobe Target", "Google Analytics"],
-    "description": "Implemented end-to-end analytics tracking across the bank’s digital touchpoints (web & app) to optimize customer experiences, especially during onboarding journeys to improve conversions. Reduced churn during onboarding by over 50% and enabled effective retargeting through granular data capture. Designed and executed A/B tests using Adobe Target to validate user journeys and enhance digital customer experience. Collaborated with marketing and product teams to build dashboards and reports to track campaign performance and conversion funnels using Adobe Analytics and Google Analytics.",
+    "description": "Implemented end-to-end tracking across web & app to optimize onboarding journeys, reducing churn significantly and enabling targeted remarketing. Designed A/B tests with Adobe Target to enhance user experience and built dashboards (Adobe & Google Analytics) for campaign and funnel performance.",
     "categories": ["all", "da"]
   },
   {
     "title": "CRM Analytics & BI Platform Enablement",
     "client": "Telecommunication",
     "technologies": ["Tableau", "SQL", "Python", "Microsoft SSIS"],
-    "description": "Served as a key contributor in building and scaling the organization-wide BI platform (Tableau), enabling data-driven decision-making across customer engagement and marketing functions. Designed and delivered dashboards on top of CRM datasets to provide actionable insights and improve campaign effectiveness. Partnered with senior leadership (Managing Director, Director of Strategy, etc.) to solve business challenges and enhance sales and marketing efficiency. Managed BI governance, including user access and controls, while overseeing a team of offshore developers and collaborating with cross-functional stakeholders to drive adoption and streamline reporting processes.",
+    "description": "Contributed to scaling an enterprise-wide BI platform (Tableau), delivering CRM-based dashboards for sales & marketing teams. Partnered with senior leadership on sales and marketing challenges, while managing BI governance, offshore teams, and cross-functional adoption.",
     "categories": ["all", "de", "da"]
+  },
+  {
+    "title": "My Personal Website",
+    "technologies": ["HTML", "JavaScript", "CSS (Bootstrap)", "Vercel", "GitHub"],
+    "description": "Built a portfolio website to showcase my work and build my online presence. I built this from scratch, using my favourite Bootstrap framework. Purchased a domain and then hosted it on Vercel.",
+    "categories": ["all", "other"],
+    "github": "https://github.com/parikshitshinge/my-website"
   }
+
 ]

@@ -14,6 +14,9 @@ const techColors = {
   "Superset": "bg-success",
   "Adobe Analytics": "bg-success",
   "Google Analytics": "bg-success", 
+
+  "Scikit-learn": "bg-danger" 
+
   
 };
 
@@ -50,7 +53,9 @@ async function loadProjects() {
       <div class="card shadow-sm mb-3 project-item" data-category="${project.categories.join(' ')}">
         <div class="card-body p-3">
           <h4 class="fw-bold mb-2">${project.title}</h4>
-          <p class="mb-1"><span class="fw-semibold text-muted">Client:</span> ${project.client}</p>
+          ${project.client ? `
+            <p class="mb-1"><span class="fw-semibold text-muted">Client:</span> ${project.client}</p>
+          ` : ""}  
           <p class="mb-2">
             <span class="fw-semibold text-muted">Technologies:</span>
             ${project.technologies.map(tech =>
@@ -58,9 +63,15 @@ async function loadProjects() {
             ).join('')}
           </p>
           <p class="text-dark mb-0">
-            <span class="fw-semibold text-muted">Project Description:</span><br>
+            <span class="fw-semibold text-muted">Project Description: </span>
             ${project.description}
           </p>
+          ${project.github ? `
+            <p class="mt-2">
+              <a href="${project.github}" target="_blank" class="btn btn-sm btn-outline-dark">
+                <i class="bi bi-github me-1"></i> View on GitHub
+              </a>
+            </p>` : ""}
         </div>
       </div>
     `).join('');
