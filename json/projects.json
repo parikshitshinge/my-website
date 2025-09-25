@@ -34,6 +34,20 @@
     "description": "Built a portfolio website to showcase my work and build my online presence. I built this from scratch, using my favourite Bootstrap framework. Purchased a domain and then hosted it on Vercel.",
     "categories": ["all", "other"],
     "github": "https://github.com/parikshitshinge/my-website"
+  },
+  {
+    "title": "Tableau Extension - Write back to DB",
+    "technologies": ["JavaScript"],
+    "description": "The Tableau Extension which allows to write back to the database from Tableau. The demo uses an example where Sales People need to update the target flag of their customers on the fly.",
+    "categories": ["all", "other"],
+    "github": "https://github.com/parikshitshinge/tableau-write-back-extension-api-demo"
+  },
+  {
+    "title": "Tic-Tac-Toe Game",
+    "technologies": ["Python"],
+    "description": "A simple game in Python where player will play against the bot and the player will NEVER win. Used minimax algorithm which calculates all probabilities of player's moves before making bot's move and scores each block accordingly. Then it takes decision which block to choose with maximum score.",
+    "categories": ["all", "other"],
+    "github": "https://github.com/parikshitshinge/tic-tac-toe-ai"
   }
 
 ]
