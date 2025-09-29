@@ -42,7 +42,6 @@ document.querySelectorAll(".filter-btn").forEach(button => {
   });
 });
 
-
 async function loadProjects() {
   try {
     const response = await fetch("json/projects.json"); // same folder
@@ -82,3 +81,4 @@ async function loadProjects() {
 
 // Run after page load
 document.addEventListener("DOMContentLoaded", loadProjects);
+

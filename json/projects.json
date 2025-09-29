@@ -8,34 +8,6 @@
     "github": "https://github.com/parikshitshinge/telco-customer-churn-prediction"
   },
   {
-    "title": "Strategic KPI Dashboard & Data Pipelines",
-    "client": "Government Institution",
-    "technologies": ["Python", "SQL", "Tableau"],
-    "description": "Worked with senior leadership to define key metrics and design Tableau dashboards for strategic KPI tracking. Built automated data pipelines (Python, GCC) to ensure reliable data flow, and led a small team to deliver accurate, high-quality analytics solutions on time.",
-    "categories": ["all", "de"]
-  },
-  {
-    "title": "Customer Experience Analytics",
-    "client": "Financial Institution",
-    "technologies": ["Adobe Analytics", "Adobe Target", "Google Analytics"],
-    "description": "Implemented end-to-end tracking across web & app to optimize onboarding journeys, reducing churn significantly and enabling targeted remarketing. Designed A/B tests with Adobe Target to enhance user experience and built dashboards (Adobe & Google Analytics) for campaign and funnel performance.",
-    "categories": ["all", "da"]
-  },
-  {
-    "title": "CRM Analytics & BI Platform Enablement",
-    "client": "Telecommunication",
-    "technologies": ["Tableau", "SQL", "Python", "Microsoft SSIS"],
-    "description": "Contributed to scaling an enterprise-wide BI platform (Tableau), delivering CRM-based dashboards for sales & marketing teams. Partnered with senior leadership on sales and marketing challenges, while managing BI governance, offshore teams, and cross-functional adoption.",
-    "categories": ["all", "de", "da"]
-  },
-  {
-    "title": "My Personal Website",
-    "technologies": ["HTML", "JavaScript", "CSS (Bootstrap)", "Vercel", "GitHub"],
-    "description": "Built a portfolio website to showcase my work and build my online presence. I built this from scratch, using my favourite Bootstrap framework. Purchased a domain and then hosted it on Vercel.",
-    "categories": ["all", "other"],
-    "github": "https://github.com/parikshitshinge/my-website"
-  },
-  {
     "title": "Tableau Extension - Write back to DB",
     "technologies": ["JavaScript"],
     "description": "The Tableau Extension which allows to write back to the database from Tableau. The demo uses an example where Sales People need to update the target flag of their customers on the fly.",
@@ -48,6 +20,13 @@
     "description": "A simple game in Python where player will play against the bot and the player will NEVER win. Used minimax algorithm which calculates all probabilities of player's moves before making bot's move and scores each block accordingly. Then it takes decision which block to choose with maximum score.",
     "categories": ["all", "other"],
     "github": "https://github.com/parikshitshinge/tic-tac-toe-ai"
+  },  
+  {
+    "title": "My Personal Website",
+    "technologies": ["HTML", "JavaScript", "CSS (Bootstrap)", "Vercel", "GitHub"],
+    "description": "Built a portfolio website to showcase my work and build my online presence. I built this from scratch, using my favourite Bootstrap framework. Purchased a domain and then hosted it on Vercel.",
+    "categories": ["all", "other"],
+    "github": "https://github.com/parikshitshinge/my-website"
   }
 
 ]
